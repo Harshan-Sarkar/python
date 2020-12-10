@@ -41,6 +41,5 @@ Press 3 For Balance Enquiry\n''')
         atm.plus = int(input("Enter the balance you want to take: "))
         atm.diff()
     if atm.c == "3":
-        
-        atm.balance()
-print("Thank you for visiting us")
+       atm.balance()
+print("-----Thank you for visiting us-----")
